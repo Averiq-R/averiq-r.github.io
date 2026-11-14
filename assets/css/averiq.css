@@ -172,8 +172,8 @@ section.bordered{border-top:1px solid var(--line)}
   padding:28px;transition:.2s;
 }
 .card:hover{border-color:#C7D7F6;box-shadow:var(--shadow);transform:translateY(-3px)}
-.card h3{font-size:18.5px;margin-bottom:10px}
-.card p{font-size:15px}
+.card h3{font-size:18.5px;margin-bottom:10px;color:var(--ink)}
+.card p{font-size:15px;color:var(--body)}
 .card ul{margin-top:14px;padding-left:0;list-style:none;font-size:14.5px;display:grid;gap:8px}
 .card ul li{padding-left:20px;position:relative}
 .card ul li::before{
